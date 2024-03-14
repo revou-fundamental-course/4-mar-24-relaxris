@@ -29,7 +29,7 @@ function hitung(){
         result = "Kegemukan (Obesitas) ";
     }
     document.getElementById('category-bmi').innerHTML = result;
-    console.log(Category);
+    console.log('category-bmi');
 
         // Validasi input
         if (isNaN(berat) || berat === "") {
