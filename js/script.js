@@ -33,3 +33,7 @@ function reset(){
     // Mengosongkan hasil
     console.log("Hasil dikosongkan.");
 }
+function BMIresult(){
+    document.getElementById('result-bmi').innerHTML = BMI;
+    console.log('Result BMI');
+}
