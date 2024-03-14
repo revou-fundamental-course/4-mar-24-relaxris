@@ -10,18 +10,10 @@ function hitung(){
     if (berat == ''){
         alert ('Harap Isi Berat Badan Anda Terlebih Dahulu')
     }
-    else {
-        console.log('Sudah Terisi')
-    }
-
-    if (tinggi == ''){
+    else if (tinggi == ''){
         alert ('Harap Isi Tinggi Badan Anda Terlebih Dahulu')
     }
-    else {
-        console.log('Sudah Terisi')
-    }
-
-    if (umur == ''){
+    else if (umur == ''){
         alert ('Harap Isi Usia Anda Terlebih Dahulu')
     }
     else {
