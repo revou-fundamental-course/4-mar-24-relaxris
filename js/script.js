@@ -19,7 +19,7 @@ function hitung(){
             return;
         }
 
-        if (isNaN(umur) || umur === "") {
+        if (isNaN(usia) || usia === "") {
             alert("Silahkan isi usia anda terlebih dahulu.");
             return;
         }
