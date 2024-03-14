@@ -2,7 +2,7 @@ function hitung(){
     // Menghitung BMI dan menginput data
     let berat = document.getElementById("beratbadan").value;
     let tinggi = document.getElementById("tinggibadan").value;
-    let umur = document.getElementById("usia").value;
+    let usia = document.getElementById("usia").value;
 
     let BMI = ( parseFloat(berat) / (parseFloat(tinggi) * parseFloat(tinggi)) );
 
@@ -19,7 +19,7 @@ function hitung(){
             return;
         }
 
-        if (isNaN(umur) || umur === "") {
+        if (isNaN(usia) || usia === "") {
             alert("Harap masukkan nilai usia yang valid.");
             return;
         }
