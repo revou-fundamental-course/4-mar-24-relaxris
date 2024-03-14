@@ -25,5 +25,12 @@ function hitung(){
     }
   
 function reset(){
-    
+    // Mengosongkan semua input
+    document.getElementById("beratbadan").value = "";
+    document.getElementById("tinggibadan").value = "";
+    document.getElementById("usia").value = "";
+
+    // Mengosongkan hasil
+    console.log("Hasil dikosongkan.");
+    }
 }
