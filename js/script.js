@@ -31,6 +31,23 @@ function hitung(){
     document.getElementById('category-bmi').innerHTML = result;
     console.log('category-bmi');
 
+    let statement;
+
+    if ( result = "Kekurangan Berat Badan" ) {
+        statement = "Anda Underweight";
+    }
+    else if ( result = "Berat Badan Ideal" ) {
+        statement = "Anda Memiliki Berat Badan Ideal";
+    }
+    else if ( result = "Kelebihan Berat Badan" ) {
+        statement = "Anda Memili Berat Badan Berlebih";
+    }
+    else if ( result = "Kegemukan" ) {
+        statement = "Anda Overweight";
+    }
+    document.getElementById('result-bmi-statement').innerHTML = statement;
+    console.log('result-bmi-statement');
+
         // Validasi input
         if (isNaN(berat) || berat === "") {
             alert("Silahkan isi berat badan anda terlebih dahulu.");
