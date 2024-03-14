@@ -10,17 +10,17 @@ function hitung(){
 
         // Validasi input
         if (isNaN(berat) || berat === "") {
-            alert("Harap masukkan nilai berat badan yang valid.");
+            alert("Silahkan isi berat badan anda terlebih dahulu.");
             return;
         }
 
         if (isNaN(tinggi) || tinggi === "") {
-            alert("Harap masukkan nilai tinggi badan yang valid.");
+            alert("Silahkan isi tinggi badan anda terlebih dahulu.");
             return;
         }
 
-        if (isNaN(usia) || usia === "") {
-            alert("Harap masukkan nilai usia yang valid.");
+        if (isNaN(umur) || umur === "") {
+            alert("Silahkan isi usia anda terlebih dahulu.");
             return;
         }
     }
