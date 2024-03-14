@@ -5,4 +5,11 @@ function hitung(){
     let BMI = ( parseFloat(berat) / (parseFloat(tinggi) * parseFloat(tinggi)) );
 
     console.log(BMI)
+
+    if (berat == ''){
+        alert ('Harap Isi Berat Badan Anda Terlebih Dahulu')
+    }
+    else {
+        console.log('Sudah Terisi')
+    }
 }
