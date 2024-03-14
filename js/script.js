@@ -5,12 +5,12 @@ function hitung(){
     let usia = document.getElementById("usia").value;
 
     let BMI = ( parseFloat(berat) / (parseFloat(tinggi) * parseFloat(tinggi)) );
-    
-    let BMI = num.toFixed(2);
 
     console.log(BMI)
 
-    document.getElementById('result-bmi').innerHTML = BMI;
+    let BMIfix = BMI.toFixed(2);
+
+    document.getElementById('result-bmi').innerHTML = BMIfix;
     console.log('Result BMI');
 
         // Validasi input
