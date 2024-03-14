@@ -17,16 +17,16 @@ function hitung(){
     let result;
 
     if ( (BMIfix) < 18.50 ) {
-        result = "Kekurangan Berat Badan";
+        result === "Kekurangan Berat Badan";
     }
     else if ( (BMIfix) > 18.50 && (BMIfix) < 24.99 ) {
-        result = "Berat Badan Ideal";
+        result === "Berat Badan Ideal";
     }
     else if ( (BMIfix) > 25.00 && (BMIfix) < 29.99 ) {
-        result = "Kelebihan Berat Badan";
+        result === "Kelebihan Berat Badan";
     }
     else if ((BMIfix) >= 30.00) {
-        result = "Kegemukan (Obesitas)";
+        result === "Kegemukan (Obesitas)";
     }
     document.getElementById('category-bmi').innerHTML = result;
     console.log('category-bmi');
