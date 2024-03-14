@@ -19,13 +19,13 @@ function hitung(){
     if ( (BMIfix) < 18.50 ) {
         result = "Kekurangan Berat Badan";
     }
-    else if ( (BMIfix) > 18.50 && (BMIfix) < 24.90 ) {
+    else if ( (BMIfix) > 18.5 && (BMIfix) < 24.9 ) {
         result = "Berat Badan Ideal";
     }
-    else if ( (BMIfix) > 25.00 && (BMIfix) < 29.90 ) {
+    else if ( (BMIfix) > 25.0 && (BMIfix) < 29.9 ) {
         result = "Kelebihan Berat Badan";
     }
-    else if ((BMIfix) >= 30.00) {
+    else if ((BMIfix) >= 30.0) {
         result = "Kegemukan (Obesitas)";
     }
     document.getElementById('category-bmi').innerHTML = result;
@@ -40,7 +40,7 @@ function hitung(){
         statement = "Anda Memiliki Berat Badan Ideal";
     }
     else if ( result = "Kelebihan Berat Badan" ) {
-        statement = "Anda Memili Berat Badan Berlebih";
+        statement = "Anda Memiliki Berat Badan Berlebih";
     }
     else if ( result = "Kegemukan (Obesitas)" ) {
         statement = "Anda Overweight";
