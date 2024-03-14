@@ -13,4 +13,16 @@ function hitung(){
     else {
         console.log('Sudah Terisi')
     }
+    if (tinggi == ''){
+        alert ('Harap Isi Tinggi Badan Anda Terlebih Dahulu')
+    }
+    else {
+        console.log('Sudah Terisi')
+    }
+    if (umur == ''){
+        alert ('Harap Isi Usia Anda Terlebih Dahulu')
+    }
+    else {
+        console.log('Sudah Terisi')
+    }
 }
