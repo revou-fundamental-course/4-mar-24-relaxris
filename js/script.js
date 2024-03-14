@@ -8,6 +8,9 @@ function hitung(){
 
     console.log(BMI)
 
+    document.getElementById('result-bmi').innerHTML = BMI;
+    console.log('Result BMI');
+
         // Validasi input
         if (isNaN(berat) || berat === "") {
             alert("Silahkan isi berat badan anda terlebih dahulu.");
@@ -33,7 +36,4 @@ function reset(){
     // Mengosongkan hasil
     console.log("Hasil dikosongkan.");
 }
-function BMIresult(){
-    document.getElementById('result-bmi').innerHTML = BMI;
-    console.log('Result BMI');
-}
+
