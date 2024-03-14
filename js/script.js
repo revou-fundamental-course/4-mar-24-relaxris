@@ -31,5 +31,4 @@ function reset(){
 
     // Mengosongkan hasil
     console.log("Hasil dikosongkan.");
-    }
 }
