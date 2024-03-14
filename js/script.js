@@ -44,16 +44,16 @@ function reset(){
 
 function category(){
     if ( (BMIfix) < 18,5 ) {
-        result = "Kekurangan Berat Badan"
+        result = "Kekurangan Berat Badan";
     }
     else if ( (BMIfix) < 18,5 && (BMIfix) < 19 ) {
-        result = "Berat Badan Ideal"
+        result = "Berat Badan Ideal";
     }
     else if ( (BMIfix) < 25 && (BMIfix) < 29,9 ) {
-        result = "Kelebihan Berat Badan"
+        result = "Kelebihan Berat Badan";
     }
     else ((BMIfix) >= 30) {
-        result = "Kegemukan (Obesitas) "
+        result = "Kegemukan (Obesitas) ";
     }
     document.getElementById('category-bmi').innerHTML = result;
     }
