@@ -45,8 +45,8 @@ function hitung(){
     else if ( (result) = "Kegemukan (Obesitas)" ) {
         statement = "Anda Overweight";
     }
-    document.getElementById('result-bmi-statement').innerHTML = statement;
-    console.log('result-bmi-statement');
+    document.getElementById('bmi-statement').innerHTML = statement;
+    console.log('bmi-statement');
 
         // Validasi input
         if (isNaN(berat) || berat === "") {
