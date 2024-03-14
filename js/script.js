@@ -2,7 +2,7 @@ function hitung(){
     // Menghitung BMI dan menginput data
     let berat = document.getElementById("beratbadan").value;
     let tinggi = document.getElementById("tinggibadan").value;
-    let umur = document.getElementById("umur").value;
+    let umur = document.getElementById("usia").value;
 
     let BMI = ( parseFloat(berat) / (parseFloat(tinggi) * parseFloat(tinggi)) );
 
