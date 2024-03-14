@@ -23,7 +23,6 @@ function hitung(){
             return;
         }
     }
-  
 function reset(){
     // Mengosongkan semua input
     document.getElementById("beratbadan").value = "";
