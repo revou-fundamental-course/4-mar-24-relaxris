@@ -5,6 +5,8 @@ function hitung(){
     let usia = document.getElementById("usia").value;
 
     let BMI = ( parseFloat(berat) / (parseFloat(tinggi) * parseFloat(tinggi)) );
+    
+    let BMI = num.toFixed(2);
 
     console.log(BMI)
 
@@ -32,6 +34,7 @@ function reset(){
     document.getElementById("beratbadan").value = "";
     document.getElementById("tinggibadan").value = "";
     document.getElementById("usia").value = "";
+    document.getElementById('result-bmi').value ="";
 
     // Mengosongkan hasil
     console.log("Hasil dikosongkan.");
