@@ -19,10 +19,10 @@ function hitung(){
     if ( (BMIfix) < 18.50 ) {
         result = "Kekurangan Berat Badan";
     }
-    else if ( (BMIfix) < 18.50 && (BMIfix) < 19.00 ) {
+    else if ( (BMIfix) > 18.50 && (BMIfix) < 19.00 ) {
         result = "Berat Badan Ideal";
     }
-    else if ( (BMIfix) < 25.00 && (BMIfix) < 29.90 ) {
+    else if ( (BMIfix) > 25.00 && (BMIfix) < 29.90 ) {
         result = "Kelebihan Berat Badan";
     }
     else if ((BMIfix) >= 30.00) {
