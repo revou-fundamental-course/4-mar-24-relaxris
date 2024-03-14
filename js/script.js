@@ -14,6 +14,22 @@ function hitung(){
     document.getElementById('result-bmi').innerHTML = BMIfix;
     console.log('Result BMI');
 
+    let = result;
+    
+        if ( (BMIfix) < 18,5 ) {
+            result = "Kekurangan Berat Badan";
+        }
+        else if ( (BMIfix) < 18,5 && (BMIfix) < 19 ) {
+            result = "Berat Badan Ideal";
+        }
+        else if ( (BMIfix) < 25 && (BMIfix) < 29,9 ) {
+            result = "Kelebihan Berat Badan";
+        }
+        else if ((BMIfix) >= 30) {
+            result = "Kegemukan (Obesitas) ";
+        }
+        document.getElementById('category-bmi').innerHTML = result;
+    
         // Validasi input
         if (isNaN(berat) || berat === "") {
             alert("Silahkan isi berat badan anda terlebih dahulu.");
@@ -30,7 +46,6 @@ function hitung(){
             return;
         }
     }
-
 // Mengosongkan semua input
 function reset(){
     document.getElementById("beratbadan").value = "";
@@ -42,18 +57,3 @@ function reset(){
     console.log("Hasil dikosongkan.");
 }
 
-function category(){
-    if ( (BMIfix) < 18,5 ) {
-        result = "Kekurangan Berat Badan";
-    }
-    else if ( (BMIfix) < 18,5 && (BMIfix) < 19 ) {
-        result = "Berat Badan Ideal";
-    }
-    else if ( (BMIfix) < 25 && (BMIfix) < 29,9 ) {
-        result = "Kelebihan Berat Badan";
-    }
-    else if ((BMIfix) >= 30) {
-        result = "Kegemukan (Obesitas) ";
-    }
-    document.getElementById('category-bmi').innerHTML = result;
-    }
