@@ -5,10 +5,11 @@ function hitung(){
     let usia = document.getElementById("usia").value;
 
     let BMI = ( parseFloat(berat) / (parseFloat(tinggi) * parseFloat(tinggi)) );
-
     console.log(BMI)
 
+    // BMI Result
     let BMIfix = BMI.toFixed(2);
+    console.log('BMIfix');
 
     document.getElementById('result-bmi').innerHTML = BMIfix;
     console.log('Result BMI');
@@ -29,8 +30,9 @@ function hitung(){
             return;
         }
     }
+
+// Mengosongkan semua input
 function reset(){
-    // Mengosongkan semua input
     document.getElementById("beratbadan").value = "";
     document.getElementById("tinggibadan").value = "";
     document.getElementById("usia").value = "";
@@ -40,3 +42,18 @@ function reset(){
     console.log("Hasil dikosongkan.");
 }
 
+function category(){
+    if ( (BMIfix) < 18,5 ) {
+        result = "Kekurangan Berat Badan"
+    }
+    else if ( (BMIfix) < 18,5 && (BMIfix) < 19 ) {
+        result = "Berat Badan Ideal"
+    }
+    else if ( (BMIfix) < 25 && (BMIfix) < 29,9 ) {
+        result = "Kelebihan Berat Badan"
+    }
+    else ((BMIfix) >= 30) {
+        result = "Kegemukan (Obesitas) "
+    }
+    document.getElementById('category-bmi').innerHTML = result;
+    }
