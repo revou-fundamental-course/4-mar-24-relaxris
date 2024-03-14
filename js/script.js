@@ -14,7 +14,7 @@ function hitung(){
     document.getElementById('result-bmi').innerHTML = BMIfix;
     console.log('Result BMI');
 
-    let result = "";
+    let result;
 
     if ( (BMIfix) < 18,5 ) {
         result = "Kekurangan Berat Badan";
@@ -29,6 +29,7 @@ function hitung(){
         result = "Kegemukan (Obesitas) ";
     }
     document.getElementById('category-bmi').innerHTML = result;
+    console.log(Category-BMI)
 
         // Validasi input
         if (isNaN(berat) || berat === "") {
