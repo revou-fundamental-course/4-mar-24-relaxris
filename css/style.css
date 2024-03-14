@@ -1,6 +1,11 @@
 .main-container {
     display: flex;
 }
+@media only screen and (max-width : 480px){
+    .main-container {
+        flex-direction: column;
+    }
+}
 .container-item {
     background-color: #fff;
     width: 100%;
