@@ -7,22 +7,23 @@ function hitung(){
 
     console.log(BMI)
 
-    if (berat == ''){
-        alert ('Harap Isi Berat Badan Anda Terlebih Dahulu')
+        // Validasi input
+        if (isNaN(beratInput.value) || beratInput.value === '') {
+            alert('Harap Isi Berat Badan Anda Terlebih Dahulu.');
+            return;
+        }
+
+        if (isNaN(tinggiInput.value) || tinggiInput.value === '') {
+            alert('Harap Isi Tinggi Badan Anda Terlebih Dahulu.');
+            return;
+        }
+
+        if (isNaN(usiaInput.value) || umurInput.value === '') {
+            alert('Harap Isi Usia Anda Terlebih Dahulu.');
+            return;
+        }
     }
-    else {
-        console.log('Sudah Terisi')
-    }
-    if (tinggi == ''){
-        alert ('Harap Isi Tinggi Badan Anda Terlebih Dahulu')
-    }
-    else {
-        console.log('Sudah Terisi')
-    }
-    if (umur == ''){
-        alert ('Harap Isi Usia Anda Terlebih Dahulu')
-    }
-    else {
-        console.log('Sudah Terisi')
-    }
+  
+function reset(){
+    
 }
