@@ -1,7 +1,7 @@
 function hitung(){
     let berat = document.getElementById("beratbadan").value;
     let tinggi = document.getElementById("tinggibadan").value;
-    let umur = document.getElementById("usia").value;
+    let umur = document.getElementById("umur").value;
 
     let BMI = ( parseFloat(berat) / (parseFloat(tinggi) * parseFloat(tinggi)) );
 
