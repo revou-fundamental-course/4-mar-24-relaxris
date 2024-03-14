@@ -16,13 +16,13 @@ function hitung(){
 
     let result;
 
-    if ( (BMIfix) < 18,5 ) {
+    if ( (BMIfix) < 18.5 ) {
         result = "Kekurangan Berat Badan";
     }
-    else if ( (BMIfix) < 18,5 && (BMIfix) < 19 ) {
+    else if ( (BMIfix) < 18.5 && (BMIfix) < 19 ) {
         result = "Berat Badan Ideal";
     }
-    else if ( (BMIfix) < 25 && (BMIfix) < 29,9 ) {
+    else if ( (BMIfix) < 25 && (BMIfix) < 29.9 ) {
         result = "Kelebihan Berat Badan";
     }
     else if ((BMIfix) >= 30) {
