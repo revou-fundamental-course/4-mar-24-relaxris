@@ -18,7 +18,7 @@ function hitung(){
             return;
         }
 
-        if (isNaN(usiaInput.value) || umurInput.value === '') {
+        if (isNaN(umurInput.value) || umurInput.value === '') {
             alert('Harap Isi Usia Anda Terlebih Dahulu.');
             return;
         }
