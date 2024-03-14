@@ -52,7 +52,7 @@ function category(){
     else if ( (BMIfix) < 25 && (BMIfix) < 29,9 ) {
         result = "Kelebihan Berat Badan";
     }
-    else ((BMIfix) >= 30) {
+    else if ((BMIfix) >= 30) {
         result = "Kegemukan (Obesitas) ";
     }
     document.getElementById('category-bmi').innerHTML = result;
