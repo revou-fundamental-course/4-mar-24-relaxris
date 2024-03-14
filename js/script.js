@@ -26,7 +26,7 @@ function hitung(){
         result = "Kelebihan Berat Badan";
     }
     else if ((BMIfix) >= 30.00) {
-        result = "Kegemukan (Obesitas) ";
+        result = "Kegemukan (Obesitas)";
     }
     document.getElementById('category-bmi').innerHTML = result;
     console.log('category-bmi');
@@ -42,7 +42,7 @@ function hitung(){
     else if ( result = "Kelebihan Berat Badan" ) {
         statement = "Anda Memili Berat Badan Berlebih";
     }
-    else if ( result = "Kegemukan" ) {
+    else if ( result = "Kegemukan (Obesitas)" ) {
         statement = "Anda Overweight";
     }
     document.getElementById('result-bmi-statement').innerHTML = statement;
