@@ -8,18 +8,18 @@ function hitung(){
     console.log(BMI)
 
         // Validasi input
-        if (isNaN(beratInput.value) || beratInput.value === '') {
-            alert('Harap Isi Berat Badan Anda Terlebih Dahulu.');
+        if (isNaN(berat) || berat === "") {
+            alert("Harap masukkan nilai berat badan yang valid.");
             return;
         }
 
-        if (isNaN(tinggiInput.value) || tinggiInput.value === '') {
-            alert('Harap Isi Tinggi Badan Anda Terlebih Dahulu.');
+        if (isNaN(tinggi) || tinggi === "") {
+            alert("Harap masukkan nilai tinggi badan yang valid.");
             return;
         }
 
-        if (isNaN(umurInput.value) || umurInput.value === '') {
-            alert('Harap Isi Usia Anda Terlebih Dahulu.');
+        if (isNaN(umur) || umur === "") {
+            alert("Harap masukkan nilai usia yang valid.");
             return;
         }
     }
