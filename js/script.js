@@ -33,16 +33,13 @@ function hitung(){
 
     let statement ;
 
-    if ( result = 'Kekurangan Berat Badan' ) {
-        statement = 'Anda Underweight';
-    }
-    else if ( result = 'Berat Badan Ideal' ) {
+    if (result === 'Kekurangan Berat Badan') {
+        statement = "Anda Underweight";
+    } else if (result === 'Berat Badan Ideal') {
         statement = "Anda Memiliki Berat Badan Ideal";
-    }
-    else if ( result = 'Kelebihan Berat Badan' ) {
-        statement = 'Anda Memiliki Berat Badan Berlebih';
-    }
-    else if ( result = 'Kegemukan (Obesitas)' ) {
+    } else if (result === 'Kelebihan Berat Badan') {
+        statement = "Anda Memiliki Berat Badan Berlebih";
+    } else if (result === 'Kegemukan (Obesitas)') {
         statement = "Anda Overweight";
     }
     document.getElementById('bmi-statement').innerHTML = statement;
